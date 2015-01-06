@@ -1,0 +1,12 @@
+[Service]
+ExecStart=/usr/local/bin/node /home/cbsadmin/aimSvr.js
+Restart=always
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=aim
+User=cbsadmin
+Group=cbsadmin
+Environment=NODE_ENV=production
+
+[Install]
+WantedBy=multi-user.target

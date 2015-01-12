@@ -1,4 +1,5 @@
 #!/bin/sh
+echo "installing mongodb"
 echo "[mongodb]
 name=MongoDB Repository
 baseurl=http://downloads-distro.mongodb.org/repo/redhat/os/x86_64/
